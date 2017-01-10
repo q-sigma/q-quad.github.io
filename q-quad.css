@@ -1,0 +1,105 @@
+      body {
+
+        background-color: #d9d9d9;
+
+        margin-top: 0;
+
+        margin-left: 0;
+
+      }
+
+      ul {
+
+        list-style-type: none;
+
+        margin: 0;
+
+        padding: 0;
+
+        overflow: hidden;
+
+        background-color: black;
+
+        position: fixed;
+
+        top: 0;
+
+        width: 100%;
+
+}
+
+
+
+li {
+
+    float: left;
+
+}
+
+
+
+li a {
+
+    display: block;
+
+    color: white;
+
+    padding: 16px;
+
+    text-decoration: none;
+
+}
+
+      li a:hover {
+
+        background-color : green;
+
+      }
+
+      #mainText {
+
+        font-family: "Courier New";
+
+        font-size: 100px;
+
+      }
+
+      #subText {
+
+        font-family: "Courier New";
+
+        font-size: 50px;
+
+      }
+
+     .textChunckQOS {
+
+         height: 200px;
+
+         background-color: #66CD00;
+
+         margin-bottom: -25px;
+
+     }
+
+     .textChunckBOX {
+
+         height: 200px;
+
+         background-color: black;
+
+         color: white;
+
+         margin-bottom: -25px;
+
+     }
+
+     .textChunckQGR {
+
+         height: 200px;
+
+         background-color: darkgray;
+
+         margin-bottom: -25px;
+
+     }
