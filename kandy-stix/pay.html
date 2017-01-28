@@ -28,7 +28,20 @@
             <p>Third Layer</p>
             <input type="text" name = "thirdlayer" id = "third">
             <br>
-            <input type="submit" onclick="submit()" href="javascript:;">
+            <input type="submit" onclick="submit();" href="javascript:;">
+            <script>
+                var one = document.getElementById("first").value;
+
+var two = document.getElementById("second").value;
+
+var three = document.getElementById("third").value;
+
+function submit() {
+
+  window.alert("First Layer:" + one\n + "Second Layer:" + two\n + "Third Layer" + three\n);
+
+}
+            </script>
     </body>
 
 </html>
