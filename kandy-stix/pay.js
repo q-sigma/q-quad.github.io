@@ -1,6 +1,6 @@
-var 1 = document.getElementById("first").value;
-var 2 = document.getElementById("second").value;
-var 3 = document.getElementById("third").value;
-function Submit() {
-  window.alert("First Layer:" + 1\n "Second Layer:" + 2\n "Third Layer" + 3\n);
+var one = document.getElementById("first").value;
+var two = document.getElementById("second").value;
+var three = document.getElementById("third").value;
+function submit() {
+  window.alert("First Layer:" + one\n + "Second Layer:" + two\n + "Third Layer" + three\n);
 }
