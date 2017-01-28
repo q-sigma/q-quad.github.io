@@ -6,6 +6,10 @@ h1 {
     font-family: Impact, Charcoal, sans-serif;
     font-size: 100px;
 }
+p {
+    text-indent: 50px;
+    font-size: 50px;
+}
 ul {
         list-style-type: none;
         margin: 0;
