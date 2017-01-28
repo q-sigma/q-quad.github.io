@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title>Kandy Stix™</title>
-        <script src="code.js" type="text/javascript" charset="utf-8"></script>        
+        <script src="pay.js" type="text/javascript" charset="utf-8"></script>        
         <link rel="stylesheet" type="text/css" href="kandy.css">
     </head>
     <body>
@@ -21,15 +21,15 @@
         <p><i>Your Lollipop Provider!</i></p>
           <form action = "$MONEY$">
             <p>First Layer</p>
-            <input type="text" name = "firstlayer" style = "text-indent: -50px;">
+            <input type="text" name = "firstlayer" id = "first">
             <br>
             <p>Second Layer</p>
-            <input type="text" name = "secondlayer" style = "text-indent: -50px;">
+            <input type="text" name = "secondlayer" id = "second">
             <br>
             <p>Third Layer</p>
-            <input type="text" name = "thirdlayer" style = "text-indent: -50px;">
+            <input type="text" name = "thirdlayer" id = "third">
             <br>
-            <input type="submit" value="Submit">      
+            <input type="submit" onclick="Submit();" href="javascript:;">      
           </form>
     </body>
 
