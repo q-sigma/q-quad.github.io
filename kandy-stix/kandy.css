@@ -2,13 +2,13 @@ body {
     background-color: lightgrey;
 }
 h1 {
-    color: black;
     font-family: Impact, Charcoal, sans-serif;
     font-size: 100px;
 }
 p {
     text-indent: 50px;
-    font-size: 50px;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 100px;
 }
 ul {
         list-style-type: none;
