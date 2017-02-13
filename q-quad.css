@@ -8,7 +8,7 @@ ul {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: black;
+        background-color: white;
         position: fixed;
         top: 0;
         width: 100%;
@@ -18,12 +18,12 @@ li {
 }
 li a {
     display: block;
-    color: white;
+    color: black;
     padding: 16px;
     text-decoration: none;
 }
 li a:hover {
-        background-color : green;
+        background-color : lightgray;
       }
 #mainText {
         font-family: "Courier New";
