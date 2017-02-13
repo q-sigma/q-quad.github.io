@@ -1,5 +1,5 @@
 body {
-        background-color: #d9d9d9;
+        background-color: black; /*#d9d9d9;*/
         margin-top: 0;
         margin-left: 0;
       }
@@ -35,9 +35,9 @@ li a:hover {
       }
 .textChunckQOS {
          height: 200px;
-         background-color: black;
+         /*background-color: black;*/
          margin-bottom: -25px;
-         color: lightgray;
+         color: black;
      }
 .textChunckBOX {
          height: 200px;
