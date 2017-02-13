@@ -1,105 +1,52 @@
-      body {
-
+body {
         background-color: #d9d9d9;
-
         margin-top: 0;
-
         margin-left: 0;
-
       }
-
-      ul {
-
+ul {
         list-style-type: none;
-
         margin: 0;
-
         padding: 0;
-
         overflow: hidden;
-
         background-color: black;
-
         position: fixed;
-
         top: 0;
-
         width: 100%;
-
 }
-
-
-
 li {
-
     float: left;
-
 }
-
-
-
 li a {
-
     display: block;
-
     color: white;
-
     padding: 16px;
-
     text-decoration: none;
-
 }
-
-      li a:hover {
-
+li a:hover {
         background-color : green;
-
       }
-
-      #mainText {
-
+#mainText {
         font-family: "Courier New";
-
         font-size: 100px;
-
       }
-
-      #subText {
-
+#subText {
         font-family: "Courier New";
-
         font-size: 50px;
-
       }
-
-     .textChunckQOS {
-
+.textChunckQOS {
          height: 200px;
-
-         background-color: #66CD00;
-
-         margin-bottom: -25px;
-
-     }
-
-     .textChunckBOX {
-
-         height: 200px;
-
          background-color: black;
-
-         color: white;
-
          margin-bottom: -25px;
-
+         color: lightgray;
      }
-
-     .textChunckQGR {
-
+.textChunckBOX {
          height: 200px;
-
-         background-color: darkgray;
-
+         background-color: EAF7FB;
+         color: black;
          margin-bottom: -25px;
-
+     }
+.textChunckQGR {
+         height: 200px;
+         background-color: darkgray;
+         margin-bottom: -25px;
      }
