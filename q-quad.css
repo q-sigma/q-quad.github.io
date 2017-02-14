@@ -28,25 +28,28 @@ li a:hover {
 #mainText {
         font-family: "Courier New";
         font-size: 100px;
+        color: #EAF7FB;
       }
 #subText {
         font-family: "Courier New";
         font-size: 50px;
+        color: #EAF7FB
       }
 .textChunckQOS {
          height: 200px;
-         /*background-color: black;*/
+         background-color: #EAF7FB;
          margin-bottom: -25px;
          color: black;
      }
 .textChunckBOX {
          height: 200px;
-         background-color: #EAF7FB;
+         background-color: #f2f2f2;
          color: black;
          margin-bottom: -25px;
      }
 .textChunckQGR {
          height: 200px;
-         background-color: darkgray;
+         background-color: #EAF7FB;
          margin-bottom: -25px;
-     }
+         color: black;
+}
